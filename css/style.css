@@ -138,6 +138,11 @@ button:focus {
   border-radius: 4px;
 }
 
+.header__menu li:last-child .header__menu__item {
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
 /* Home */
 #home {
   background-color: var(--color-primary);
