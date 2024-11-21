@@ -223,8 +223,8 @@ button:focus {
   transform: rotate(-15deg) scale(1.2);
 }
 
-/* Work */
-#work {
+/* Portfolios */
+#portfolios {
   background-color: var(--color-primary);
   color: var(--color-text);
 }

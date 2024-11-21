@@ -1,6 +1,6 @@
 "use strict";
 
-const sectionIds = ["#home", "#about", "#work", "#testimonial", "#contact"];
+const sectionIds = ["#home", "#about", "#portfolios", "#testimonial", "#contact"];
 const sections = sectionIds.map((id) => document.querySelector(id));
 const navItems = sectionIds.map((id) =>
   document.querySelector(`[href="${id}"]`)
