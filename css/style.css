@@ -433,6 +433,7 @@ button:focus {
   justify-content: center;
   align-items: center;
   box-shadow: 0 10px 35px var(--color-accent);
+  transition: opacity 300ms ease-in;
 }
 
 /* Footer */
@@ -530,13 +531,5 @@ button:focus {
 
   .testimonial:nth-child(even) .testimonial__img {
     order: 0;
-  }
-
-  .arrow-up {
-    font-size: 1.5rem;
-    width: 2rem;
-    height: 2rem;
-    bottom: 1rem;
-    right: 1rem;
   }
 }
