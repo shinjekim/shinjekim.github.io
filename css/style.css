@@ -218,26 +218,6 @@ button:focus {
   transform: rotate(-15deg) scale(1.2);
 }
 
-.jobs {
-  text-align: start;
-}
-
-.job {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 1rem;
-}
-
-.job__name {
-  color: var(--color-primary);
-}
-
-.job__period {
-  color: var(--color-primary);
-  font-size: 0.8rem;
-}
-
 /* Skills */
 #skills {
   background-color: var(--color-primary-variant);
@@ -534,10 +514,6 @@ button:focus {
 
   .major {
     max-width: 25rem;
-  }
-
-  .job {
-    justify-content: center;
   }
 
   .skills {
