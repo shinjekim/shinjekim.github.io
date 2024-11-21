@@ -310,26 +310,6 @@ button:focus {
   color: var(--color-primary);
 }
 
-.category__count {
-  opacity: 0;
-  position: absolute;
-  top: -20px;
-  right: 16px;
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
-  border-radius: 100%;
-  background-color: var(--color-accent-variant);
-  color: var(--color-text);
-  transition: all 250ms ease-in;
-}
-
-.category--selected .category__count,
-.category:hover .category__count {
-  opacity: 1;
-  top: 0;
-}
-
 .projects {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
