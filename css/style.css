@@ -384,6 +384,11 @@ button:focus {
   color: var(--color-accent);
 }
 
+.contact__email {
+  color: var(--color-accent);
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .section {
     padding: 4rem 2rem;
@@ -458,6 +463,10 @@ button:focus {
 
   .testimonial:nth-child(even) .testimonial__img {
     order: 0;
+  }
+
+  .contact__email {
+    font-size: 1rem;
   }
 
   .arrow-up {
