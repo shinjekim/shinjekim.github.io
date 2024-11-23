@@ -1,2 +1,2 @@
-# portfoilo
- Leah's portfolio
+# Leah's portfolio
+ https://leahshinjekim.com/
