@@ -457,6 +457,14 @@ button:focus {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .project__metadata .project__title {
+    font-size: 0.6rem;
+  }
+
+  .project__metadata p {
+    font-size: 0.5rem;
+  }
+
   .testimonial {
     flex-direction: column;
   }
